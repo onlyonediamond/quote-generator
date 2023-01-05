@@ -1,10 +1,10 @@
 * {
     box-sizing: border-box;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 body {
     background-color: #fff;
-    font-family: cursive;
 }
 
 .quotes {
@@ -35,7 +35,15 @@ a {
 }
 
 #quote, #author {
-    font-size: 18px;
+    font-size: 20px;
+}
+
+#quote {
+    padding: 0 20px;
+}
+
+#author {
+    font-weight: bold;
 }
 
 .quote-box button {
@@ -44,6 +52,7 @@ a {
     background-color: #fff;
     border: 1px solid #000;
     border-radius: 12px;
+    font-size: 15px;
 }
 
 .features {
