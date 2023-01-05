@@ -4,6 +4,11 @@
 
 body {
     background-color: #fff;
+    font-family: cursive;
+}
+
+.quotes {
+    margin-top: 200px;
 }
 
 .header {
@@ -29,8 +34,8 @@ a {
     align-items: center;
 }
 
-#quote p {
-    font-size: 15px;
+#quote, #author {
+    font-size: 18px;
 }
 
 .quote-box button {
@@ -53,4 +58,24 @@ a {
     background-color: #fff;
     border: 1px solid #000;
     border-radius: 12px;
+}
+
+#copy {
+    cursor: pointer;
+}
+
+.changeBg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h4 {
+    margin-right: 30px;
+}
+
+input {
+    border: none;
+    background: ghostwhite;
+    cursor:pointer;
 }
