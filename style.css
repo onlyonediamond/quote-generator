@@ -34,16 +34,14 @@ a {
     align-items: center;
 }
 
-#quote, #author {
-    font-size: 20px;
-}
-
 #quote {
     padding: 0 20px;
+    font-size: 28px;
 }
 
 #author {
     font-weight: bold;
+    font-size: 22px;
 }
 
 .quote-box button {
